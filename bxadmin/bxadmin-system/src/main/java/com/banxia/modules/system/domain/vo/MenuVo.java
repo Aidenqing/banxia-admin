@@ -1,5 +1,5 @@
 /*
- *  Copyright 2019-2020 Zheng Jie
+ *  Copyright 2019-2020 Qing
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -23,7 +23,7 @@ import java.util.List;
 
 /**
  * 构建前端路由时用到
- * @author Zheng Jie
+ * @author Qing
  * @date 2018-12-20
  */
 @Data

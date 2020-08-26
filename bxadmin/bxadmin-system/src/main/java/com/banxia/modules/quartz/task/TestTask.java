@@ -1,5 +1,5 @@
 /*
- *  Copyright 2019-2020 Zheng Jie
+ *  Copyright 2019-2020 Qing
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * 测试用
- * @author Zheng Jie
+ * @author Qing
  * @date 2019-01-08
  */
 @Slf4j

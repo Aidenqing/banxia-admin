@@ -44,12 +44,23 @@ spring:
           config:
             multi-statement-allow: true
 
+  redis:
+    #数据库索引
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    password: root
+    #连接超时时间
+    timeout: 5000
+
+    cache-names: redisCache
+
 # 登录相关配置
 login:
   # 登录缓存
   cache-enable: true
   #  是否限制单用户登录
-  single: false
+  single: true
   #  验证码
   login-code:
     #  验证码类型配置 查看 LoginProperties 类

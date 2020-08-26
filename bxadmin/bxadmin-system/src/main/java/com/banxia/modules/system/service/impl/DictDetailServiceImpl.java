@@ -1,5 +1,5 @@
 /*
- *  Copyright 2019-2020 Zheng Jie
+ *  Copyright 2019-2020 Qing
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -39,7 +39,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
-* @author Zheng Jie
+* @author Qing
 * @date 2019-04-10
 */
 @Service
