@@ -34,7 +34,7 @@ public class TheadFactoryName implements ThreadFactory {
     private final String namePrefix;
 
     public TheadFactoryName() {
-        this("el-pool");
+        this("bx-pool");
     }
 
     private TheadFactoryName(String name){

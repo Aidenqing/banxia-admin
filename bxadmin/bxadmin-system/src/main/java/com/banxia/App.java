@@ -33,6 +33,7 @@ public class App {
 
     @Bean
     public ServletWebServerFactory webServerFactory() {
+
         TomcatServletWebServerFactory fa = new TomcatServletWebServerFactory();
         fa.addConnectorCustomizers(connector -> connector.setProperty("relaxedQueryChars", "[]{}"));
         return fa;

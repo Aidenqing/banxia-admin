@@ -63,6 +63,7 @@ public class BaseEntity implements Serializable {
     @ApiModelProperty(value = "更新时间", hidden = true)
     private Timestamp updateTime;
 
+
     /* 分组校验 */
     public @interface Create {}
 

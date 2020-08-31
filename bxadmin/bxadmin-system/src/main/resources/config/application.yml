@@ -2,6 +2,7 @@ server:
   port: 8000
   servlet:
     context-path: /api
+  shutdown: graceful
 spring:
   freemarker:
     check-template-location: false
@@ -14,7 +15,6 @@ spring:
       repositories:
         enabled: false
 
-
   #配置 Jpa
   jpa:
     properties:
@@ -22,6 +22,8 @@ spring:
         ddl-auto: none
         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
     open-in-view: true
+  lifecycle:
+    timeout-per-shutdown-phase: 10
 
 
 task:
